@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-small-card',
@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
     'small-card.responsive.component.css',
   ],
 })
-export class SmallCardComponent {}
+export class SmallCardComponent {
+  @Input()
+  photoCover: string = '';
+
+  @Input()
+  CardTitle: string = '';
+}
