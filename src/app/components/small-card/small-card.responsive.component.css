@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+  .small-card__title h1 {
+    font-size: .9rem;
+  }
+
+  .container__small-card-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+}
