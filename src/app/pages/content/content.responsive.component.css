@@ -1,0 +1,11 @@
+@media (max-width: 520px){
+  .content__cover img {
+  width: 250px;
+  min-width: 250px;
+  height: 150px;
+}
+
+.content__title {
+  font-size: .7rem;
+}
+}
