@@ -26,11 +26,31 @@
   margin-top: 1rem;
   text-align: center;
   width: 75%;
+  padding-bottom: 1rem;
 }
 
 .content__description p {
-
   margin-top: 1rem;
   color: rgb(128, 128, 128);
-  text-align: center;
+  text-align: start;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-back {
+  background-color: #ccc;
+  color: #333;
+}
+
+.btn-back:hover {
+  background-color: #aaa;
 }

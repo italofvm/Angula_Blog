@@ -1,5 +1,19 @@
-@media (max-width: 420px){
+@media (max-width: 420px) {
+  .container__big-card {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .big-card__title h1 {
+    font-size: 1.2rem;
+  }
+
+  .big-card__description {
+    width: 85%;
+  }
+
   .big-card__photo img {
-  width: 50%;
-}
+    width: 100%;
+    min-width: 300px;
+  }
 }
